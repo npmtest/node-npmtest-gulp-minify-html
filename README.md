@@ -1,7 +1,7 @@
 # test coverage for  gulp-minify-html (v1.0.6)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-minify-html.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-minify-html) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-minify-html.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-minify-html)
 #### Minify html with minimize.
 
-[![NPM](https://nodei.co/npm/gulp-minify-html.png?downloads=true)](https://www.npmjs.com/package/gulp-minify-html)
+[![NPM](https://nodei.co/npm/gulp-minify-html.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-minify-html)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-gulp-minify-html/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-minify-html/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-minify-html/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-gulp-minify-html%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-minify-html%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.npmPackageListing.svg)
 
@@ -56,13 +56,11 @@
     "main": "./index.js",
     "maintainers": [
         {
-            "name": "murphydanger",
-            "email": "jonathan@gnobel.com"
+            "name": "murphydanger"
         }
     ],
     "name": "gulp-minify-html",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha -u tdd -R list --globals opts"
     },
