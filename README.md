@@ -1,4 +1,7 @@
-# test coverage for  gulp-minify-html (v1.0.6)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-minify-html.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-minify-html) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-minify-html.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-minify-html)
+# npmtest-gulp-minify-html
+
+#### basic test coverage for  gulp-minify-html (v1.0.6)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-minify-html.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-minify-html) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-minify-html.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-minify-html)
+
 #### Minify html with minimize.
 
 [![NPM](https://nodei.co/npm/gulp-minify-html.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-minify-html)
@@ -7,11 +10,17 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-minify-html/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-minify-html/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-minify-html/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-minify-html/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-minify-html/tree/gh-pages/build)|
+
+- [https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.html/index.html)
 
 [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/coverage.html/index.html)
 
+- [https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html)
+
 [![test-report](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-gulp-minify-html/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
 
@@ -64,7 +73,8 @@
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha -u tdd -R list --globals opts"
     },
-    "version": "1.0.6"
+    "version": "1.0.6",
+    "bin": {}
 }
 ```
 
